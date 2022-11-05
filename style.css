@@ -1,0 +1,247 @@
+*{
+
+    
+}
+body{
+	margin: 0;
+	width: 100%;
+	background: #ad5389; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #3c1053,
+    #ad5389
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #3c1053,
+    #ad5389
+  );
+}
+.navbar{
+	margin: 0;
+	display: flex;
+}
+
+.nav{
+	width: 100%;
+	background:url(bg.jpg);
+	height: 20em;
+	background-size: cover;
+	align-items: center;
+}
+.nav h1{
+	text-align: center;
+	color: white;
+	font-family: url(OpenScript.ttf);
+}
+.navimg{
+	display: block;
+	text-align: center;
+}
+.navimg img{
+	width: 8em;
+	height: 8em;
+	
+}
+.nav ul{
+    list-style: none;
+    text-align: center;
+}
+.nav ul li{
+    margin: 1em;
+    display: inline-block;
+}
+.nav ul li a{
+	display: block;
+	text-decoration: none;
+    transition: all .4s;
+    color: white;
+    z-index: 1;
+    position: relative;
+    top: 0.8em;
+    font-size: 1.3em;
+
+}
+
+.nav ul li a:hover{
+	color: red;
+	text-decoration: underline;
+}
+.home{
+	width: 100%;
+	height: 23em;
+	padding-top: 2em;
+	display: flex;
+	margin: auto;
+}
+.hm{
+	background: #ffffff11;
+	width: 53%;
+	height: 16em;
+	border-radius: 2em;
+	display: flex;
+	margin: auto;
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.205);
+}
+.hm img{
+	height: 12em;
+    width: 12em;
+    margin: 2em;
+    float: left;
+}
+.aboutme p{
+	margin top: 1em;
+	margin-right: 1em;
+	font-family: OpenScript.ttf;
+}
+@media(max-width: 720px){
+	.nav ul li a{
+		top: -0.8em;
+	}
+	.hm{
+		width: 100%;
+	}
+}
+
+/* Style Pendidikan*/
+.pendidikan{
+    padding: 50px 0;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.200);
+    width: 100%;
+    background: #ffffff11;
+}
+.pnddkn{
+    display: flex;
+    flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  
+}
+.pendidikan h1{
+    text-align: center;
+    color: white;
+}
+.school{
+    width: 350px;
+  height: 400px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.205);
+  border-radius: 10px;
+  background-color: #ffffff11;
+  margin: 0 20px 50px 20px;
+  display: flex;
+  align-items: center;
+  border: 1px solid rgba(255, 255, 255, 0.212);
+  flex-direction: column;
+  margin-top: 2em;
+}
+.school h2{
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+.img1 img{
+    width: 300px;
+    height: 200px;
+}
+.img1 p{
+    text-align: center;
+    margin-top: 1em;
+    font-size: 14pt;
+    font-weight: bold;
+}
+
+/* Jadwal Kuliah */
+.jadwalkuliah{
+    padding: 2px 0;
+  	background: #ffffff11;
+   
+}
+.jadwal{
+    background-color: #ffffff11;
+    margin: 5em 10em 5em 10em;
+    border-radius: 13px;
+    padding: 20px;
+    height: 430px;
+}
+.jadwal h1{
+    text-align: center;
+    color: white;
+}
+.tabel table{
+    
+    text-align: center;
+    height: 20em;
+    width: 60em;
+}
+@media(max-width: 720px){
+	.jadwal{
+		margin-left: 0em;
+		margin-right: 0em;
+		height: 710px;
+	}
+	.tabel table{
+		height: 20em;
+    	width: 20em;
+    	font-size: 11pt;
+	}
+}
+.aktivitas{
+    padding: 60px 0;
+    margin: auto;
+}
+.aktiv h1{
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 0.5em;
+    color: white;
+}
+.aktiv{
+    margin: 1em 8em 2em 8em;
+    background-color: #ffffff11;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.200);
+    border-radius: 13px;
+    padding: 20px;
+    height: 450px;
+
+}
+.a-img img{
+    width: 30em;
+    height: 17em;
+    float: left;
+    margin-right: 1em;
+    margin-left: 1em;
+}
+.a-text p{
+  font-family: Times New Roman;
+}
+
+@media(max-width: 790px){
+	.aktiv{
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.a-img img{
+    width: 27em;
+    height: 14em;
+    margin-right: 1em;
+    margin-left: 0em;
+	}
+}
+
+.h1por h1{
+	text-align: center;
+	color: white;
+}
+.portofolio{
+	background-color: #ffffff11;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.200);
+    border-radius: 13px;
+    width: 53%;
+	height: 16.5em;
+	margin: auto;
+}
+.portofolio img{
+	width: 13em;
+	height: 13em;
+	margin: 2em;
+}
