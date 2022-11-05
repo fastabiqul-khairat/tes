@@ -94,7 +94,7 @@ body{
 	margin-right: 1em;
 	font-family: OpenScript.ttf;
 }
-@media(max-width: 720px){
+@media(max-width: 567px){
 	.nav ul li a{
 		top: -0.8em;
 	}
